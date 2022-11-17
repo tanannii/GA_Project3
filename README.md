@@ -1,8 +1,9 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: Standardized Test Analysis
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Web APIs & NLP
 
 ### Overview
-The SAT and ACT are standardized tests that many colleges and universities in the United States require for their admissions process.
-There was a change in format for SAT in 2016. Math is now taking a bigger weightage. Hence, Math results influence SAT score much more than ACT.
+In recent years, Data science has become one of the most popular field. This is all thanks to the rise of technology (especially programming languages, and techniques for collecting, analyzing, and interpreting data). Due to it's popularity, employment of data scientists is projected to grow 36 percent from 2021 to 2031 (much faster than the average for all occupations).
+
+(Source: https://www.bls.gov/ooh/math/data-scientists.htm#:~:text=Employment%20of%20data%20scientists%20is,on%20average%2C%20over%20the%20decade.)
 
 ### Problem Statement
 Was this decision beneficial for College Board in its competition against ACT Inc. in its fight for market share? 
