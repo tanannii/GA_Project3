@@ -30,6 +30,8 @@ From the models, SVM has best score of 0.9.
 The best parameters are C = 5.0 and Kernel = 'rbf'.
 Hence, SVM is the best model to use for classify the posts into identifying whether they are for Python or R.
 
+With this model, it can help to better identify if the resolution that was searched was for Python or R. This could make learning more efficient and useful. 
+
 Moving forward, the below actions are recommended for better classification of the posts:
 - Collection of more data
 - Using more data columns for modelling (instead of only using 'selftext')
