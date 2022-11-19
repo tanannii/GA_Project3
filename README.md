@@ -20,7 +20,15 @@ This project attempts to classify posts/data from Reddit (as a proxy for interne
     - Baseline Accuracy
     - Logistic Regression
     - Random Forests and Extra Trees
-    - Support Vector Machines
+    - Support Vector Machines (SVM)
 
 ### Conclusions/recommendations
+From the models, SVM has best score of 0.9. 
+The best parameters are C = 5.0 and Kernel = 'rbf'.
+Hence, SVM is the best model to use for classify the posts into identifying whether they are for Python or R.
+
+Moving forward, the below actions are recommended for better classification of the posts:
+- Collection of more data
+- Using more data columns for modelling (instead of only using 'selftext')
+- Run more models to check if there are other models with better performance
 
