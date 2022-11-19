@@ -4,8 +4,13 @@
 In recent years, Data science has become one of the most popular field. This is all thanks to the rise of technology (especially programming languages, and techniques for collecting, analyzing, and interpreting data). Due to it's popularity, employment of data scientists is projected to grow 36 percent from 2021 to 2031 (much faster than the average for all occupations).
 (Source: https://www.bls.gov/ooh/math/data-scientists.htm#:~:text=Employment%20of%20data%20scientists%20is,on%20average%2C%20over%20the%20decade.)
 
+With the increased popularity of Data Science and ease of using Technology to build their own skills sets, there is a greater demand in self learning too. Specifically, Python and Rprogramming are the most popular languages that is in demand. 
+
 ### Problem Statement
-With the increased popularity of Data Science and ease of using Technology to build their own skills sets, there is a greater demand in self learning too. Reddit is a network of communities where people can dive into their interests, hobbies and passions. Hence, it's a popular avenue to for learners (of data science) to post their questions and search for resolutions. 
+Although the internet is an efficient and convenient place for self learning, there are also too much content that is available. The resources that have been searched and found, might not be correct/accurate. 
+For example, searching for a resolution for Python, might return resolutions for other languages (for example, Rprogramming). 
+
+This project attempts to classify posts/data from Reddit (as a proxy for internet), and identify if it belongs to Python or Rprogramming. 
 
 ### Data Dictionary
 |Feature|Type|Dataset|Description|
