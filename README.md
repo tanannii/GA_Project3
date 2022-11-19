@@ -19,7 +19,6 @@ This project attempts to classify posts/data from Reddit (as a proxy for interne
 4. Modelling 
     - Baseline Accuracy
     - Logistic Regression
-    - Naive Bayes
     - Random Forests and Extra Trees
     - Support Vector Machines
 
