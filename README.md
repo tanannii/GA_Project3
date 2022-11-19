@@ -2,17 +2,10 @@
 
 ### Overview
 In recent years, Data science has become one of the most popular field. This is all thanks to the rise of technology (especially programming languages, and techniques for collecting, analyzing, and interpreting data). Due to it's popularity, employment of data scientists is projected to grow 36 percent from 2021 to 2031 (much faster than the average for all occupations).
-
 (Source: https://www.bls.gov/ooh/math/data-scientists.htm#:~:text=Employment%20of%20data%20scientists%20is,on%20average%2C%20over%20the%20decade.)
 
 ### Problem Statement
-Was this decision beneficial for College Board in its competition against ACT Inc. in its fight for market share? 
-
-     - Did this decision cause any change in SAT participation rate?
-
-     - Did this decision encourage students strong in Mathematics to sit for SAT?
-
-     - Did these students switch over to SAT and abandon ACT? Or did they take both tests?
+With the increased popularity of Data Science and ease of using Technology to build their own skills sets, there is a greater demand in self learning too. Reddit is a network of communities where people can dive into their interests, hobbies and passions. Hence, it's a popular avenue to for learners (of data science) to post their questions and search for resolutions. 
 
 ### Data Dictionary
 |Feature|Type|Dataset|Description|
