@@ -12,48 +12,16 @@ For example, searching for a resolution for Python, might return resolutions for
 
 This project attempts to classify posts/data from Reddit (as a proxy for internet), and identify if it belongs to Python or Rprogramming. 
 
-### Data Dictionary
-|Feature|Type|Dataset|Description|
-|---|---|---|---|
-|act_participation_rate_2017|float|ACT|ACT's Participation Rate in 2017|
-|act_english_avg_score_2017|float|ACT|ACT's Average Score for English in 2017| 
-|act_math_avg_score_2017|float|ACT|ACT's Average Score for Math in 2017| 
-|act_reading_avg_score_2017|float|ACT|ACT's Average Score for Reading in 2017| 
-|act_science_avg_score_2017|float|ACT|ACT's Average Score for Science in 2017|
-|act_composite_avg_score_2017|float|ACT|ACT's Average Composite Score in 2017| 
-|act_participation_rate_2018|float|ACT|ACT's Participation Rate in 2018|
-|act_composite_2018|float|ACT|ACT's Average Composite Score in 2018| 
-|act_participation_rate_2019|float|ACT|ACT's Participation Rate in 2019|
-|act_composite_2019|float|ACT|ACT's Average Composite Score in 2019|
-|sat_participation_rate_2017|float|SAT|SAT's Participation Rate in 2017|
-|sat_ebrw_avg_score_2017|float|SAT|SAT's Average Score for Evidence-based Reading and Writing in 2017| 
-|sat_math_avg_score_2017|float|SAT|SAT's Average Score for Math in 2017| 
-|sat_total_avg_score_2017|float|SAT|SAT's Average Score for Total in 2017| 
-|sat_participation_rate_2018|float|SAT|SAT's Participation Rate in 2018|
-|sat_ebrw_avg_score_2018|float|SAT|SAT's Average Score for Evidence-based Reading and Writing in 2018| 
-|sat_math_avg_score_2018|float|SAT|SAT's Average Score for Math in 2018| 
-|sat_total_avg_score_2018|float|SAT|SAT's Average Score for Total in 2018|
-|sat_participation_rate_2019|float|SAT|SAT's Participation Rate in 2019|
-|sat_ebrw_avg_score_2019|float|SAT|SAT's Average Score for Evidence-based Reading and Writing in 2019| 
-|sat_math_avg_score_2019|float|SAT|SAT's Average Score for Math in 2019| 
-|sat_total_avg_score_2019|float|SAT|SAT's Average Score for Total in 2019| 
-
-
 ### Brief summary of your analysis
-1. Relationship between ACT and SAT's participation rate
-2. Trends of ACT and SAT's Average/Median Participation Rate over the years
-3. Trends of ACT and SAT's Average/Median Scores over the years
-4. Breakdown of SAT's scores - Math and EBRW
-
+1. Scrape data from sub-reddit Python and R
+2. Clean up data and use the column 'selftext' to classify
+3. EDA on scrapped data
+4. Modelling 
+    - Baseline Accuracy
+    - Logistic Regression
+    - Naive Bayes
+    - Random Forests and Extra Trees
+    - Support Vector Machines
 
 ### Conclusions/recommendations
-The new SAT format has attracted more students and has increased the participation rate. 
-On the other hand, participation rate for ACT has dropped.
-However, we do see a greater proportion of students who take both SAT and ACT.
 
-Although the average score of SAT has dropped, the median score of SAT has increased slightly.
-
-Looking at the details of the score, on the whole, scores for Math has improved. 
-This could signal that more mathematically strong students are attracted by the change in format, and have decided to try SAT (instead of ACT). 
-
-States who used to participate mainly in ACT, is now taking up SAT. Students are choosing to take up SAT (on top of ACT) to have a chance in both. 
