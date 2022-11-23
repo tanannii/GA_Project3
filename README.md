@@ -10,12 +10,12 @@ For example, of all the different programming languages that are available, Pyth
 This project attempts to classify posts/data from Reddit (as a proxy for internet), and identify if it belongs to Python or SQL. 
 
 ### Brief summary of your analysis
-1. Scrape data from sub-reddit Python and R
-    - https://www.reddit.com/r/SQL/
+1. Scrape data from sub-reddit Python and SQL
     - https://www.reddit.com/r/Python/
-3. Clean up data and use the column 'selftext' to classify
-4. EDA on scrapped data
-5. Modelling 
+    - https://www.reddit.com/r/SQL/
+2. Clean up data and use the column 'selftext' to classify
+3. EDA on scrapped data
+4. Modelling 
     - Baseline Accuracy
     - Logistic Regression
     - Random Forests and Extra Trees
