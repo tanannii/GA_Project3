@@ -32,11 +32,14 @@ Although such high score may signal overfitting, we would go ahead and use Logis
 With this model, it can help to better identify if the resolution that was searched was for Python or SQL. This could make learning more efficient and useful. 
 Specifically, we have also identified top 'words' that signals stronger. 
 The top 5 words that signals that a resolution is 'Python' are:
-https	7.919949 as the number of times 'https' appears in a 'selftext', it is about 7.92 times as likely for this resolution to be for 'Python'
-x200b	5.233946
-github	4.656340
-api	3.966020
-thread	3.618439
+| Words  | Coefficients |
+|--------|--------------|
+|  https |     7.919949 |   
+|  x200b |     5.233946 |   
+| github |     4.656340 |  
+|    api |     3.966020 |   
+| thread |     3.618439 |   
+For example, as 'https' appears in a 'selftext' by one unit, it is about 7.92 times as likely for this resolution to be for 'Python'.
 
 Moving forward, the below actions are recommended for better classification of the posts:
 - Collection of more data
