@@ -1,7 +1,7 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Web APIs & NLP
 
 ### Overview
-In recent years, Data science has become one of the most popular field. This is all thanks to the rise of technology (especially programming languages, and techniques for collecting, analyzing, and interpreting data). Due to it's popularity, employment of data scientists is projected to grow 36 percent from 2021 to 2031 (much faster than the average for all occupations).
+In recent years, Data science has become one of the most popular field. This is all thanks to the rise of technology, making accessibility to resources a lot easier (especially programming languages, and techniques for collecting, analyzing, and interpreting data). Due to it's popularity, employment of data scientists is projected to grow 36 percent from 2021 to 2031 (much faster than the average for all occupations).
 
 (Source: https://www.bls.gov/ooh/math/data-scientists.htm#:~:text=Employment%20of%20data%20scientists%20is,on%20average%2C%20over%20the%20decade.)
 
@@ -11,11 +11,11 @@ With the increased popularity of Data Science and ease of using Technology to bu
 Although the internet is an efficient and convenient place for self learning, there are also too much content that is available. The resources that have been searched and found, might not be correct/accurate. 
 For example, searching for a resolution for Python, might return resolutions for other languages (for example, Rprogramming). 
 
-This project attempts to classify posts/data from Reddit (as a proxy for internet), and identify if it belongs to Python or Rprogramming. 
+This project attempts to classify posts/data from Reddit (as a proxy for internet), and identify if it belongs to Python or SQL. 
 
 ### Brief summary of your analysis
 1. Scrape data from sub-reddit Python and R
-    - https://www.reddit.com/r/rprogramming/
+    - https://www.reddit.com/r/SQL/
     - https://www.reddit.com/r/Python/
 3. Clean up data and use the column 'selftext' to classify
 4. EDA on scrapped data
@@ -26,11 +26,17 @@ This project attempts to classify posts/data from Reddit (as a proxy for interne
     - Support Vector Machines (SVM)
 
 ### Conclusions/recommendations
-From the models, SVM has best score of 0.9. 
-The best parameters are C = 5.0 and Kernel = 'rbf'.
-Hence, SVM is the best model to use for classify the posts into identifying whether they are for Python or R.
+From the models, Logistic Regression has the highest score of 0.9972. 
+Although such high score may signal overfitting, we would go ahead and use Logistic Regression for the ease of explaination and efficiency.
 
-With this model, it can help to better identify if the resolution that was searched was for Python or R. This could make learning more efficient and useful. 
+With this model, it can help to better identify if the resolution that was searched was for Python or SQL. This could make learning more efficient and useful. 
+Specifically, we have also identified top 'words' that signals stronger. 
+The top 5 words that signals that a resolution is 'Python' are:
+https	7.919949 as the number of times 'https' appears in a 'selftext', it is about 7.92 times as likely for this resolution to be for 'Python'
+x200b	5.233946
+github	4.656340
+api	3.966020
+thread	3.618439
 
 Moving forward, the below actions are recommended for better classification of the posts:
 - Collection of more data
