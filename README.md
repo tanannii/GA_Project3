@@ -39,6 +39,7 @@ The top 5 words that signals that a resolution is 'Python' are:
 | github |     4.656340 |  
 |    api |     3.966020 |   
 | thread |     3.618439 |   
+
 For example, as 'https' appears in a 'selftext' by one unit, it is about 7.92 times as likely for this resolution to be for 'Python'.
 
 Moving forward, the below actions are recommended for better classification of the posts:
