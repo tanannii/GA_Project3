@@ -22,8 +22,8 @@ This project attempts to classify posts/data from Reddit (as a proxy for interne
     - Support Vector Machines (SVM)
 
 ### Conclusions/recommendations
-From the models, Logistic Regression has the highest score of 0.9897. 
-Although such high score may signal overfitting, we would go ahead and use Logistic Regression for the ease of explaination and efficiency.
+From the models, Logistic Regression has the highest score of 0.9216 (test). 
+Comparing the test score to train score (0.9216 vs 0.9897), there's a small difference which may signal overfitting, we would go ahead and use Logistic Regression for the ease of explaination and efficiency.
 
 With this model, it can help to better identify if the resolution that was searched was for Python or SQL. This could make learning more efficient and useful. 
 Specifically, we have also identified top 'words' that signals stronger. 
@@ -39,7 +39,9 @@ The top 5 words that signals that a resolution is 'Python' are:
 For example, as 'thread' appears in a 'selftext' by once, it is about 5.09 times as likely for this resolution to be for 'Python'.
 
 Moving forward, the below actions are recommended for better classification of the posts:
-- Collection of more data
+- Collection of more data (in terms of posts)
 - Using more data columns for modelling (instead of only using 'selftext')
 - Run more models to check if there are other models with better performance
+- Include more subreddit of other programming languages
+- Drop words that are appearing equally in both SQL and Python
 
