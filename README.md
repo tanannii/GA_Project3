@@ -36,8 +36,6 @@ The top 5 words that signals that a resolution is 'Python' are:
 |      def |     3.540431 |
 |     text |     3.505633 |
 
-For example, as 'thread' appears in a 'selftext' by once, it is about 5.09 times as likely for this resolution to be for 'Python'.
-
 Moving forward, the below actions are recommended for better classification of the posts:
 - Collection of more data (in terms of posts)
 - Using more data columns for modelling (instead of only using 'selftext')
