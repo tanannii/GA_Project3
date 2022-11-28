@@ -23,7 +23,7 @@ This project attempts to classify posts/data from Reddit (as a proxy for interne
 
 ### Conclusions/recommendations
 From the models, Logistic Regression has the highest score of 0.9216 (test). 
-Comparing the test score to train score (0.9216 vs 0.9897), there's a small difference which may signal overfitting, we would go ahead and use Logistic Regression for the ease of explaination and efficiency.
+Comparing the test score to train score (0.9216 vs 0.9897), there's a small difference which may signal overfitting. However, since the accuracy and other metrics still have the best results, we would go ahead and use Logistic Regression for the added advantage of ease of explaination and efficiency.
 
 With this model, it can help to better identify if the resolution that was searched was for Python or SQL. This could make learning more efficient and useful. 
 Specifically, we have also identified top 'words' that signals stronger. 
